@@ -1,11 +1,11 @@
 import Nav from "./layout/Nav";
-
+import Home from "./layout/Home";
 const App = () => {
   return (
     <>
       <div className="">
         <Nav />
-        <h1 className="text-center">hello world</h1>
+        <Home />
       </div>
     </>
   );

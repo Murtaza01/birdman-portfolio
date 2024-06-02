@@ -1,5 +1,8 @@
 import { useState } from "react";
 import NavItems from "../components/NavItems";
+import eagle from "../assets/eagle2.png";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { RxCross1 } from "react-icons/rx";
 
 const Nav = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -9,21 +12,25 @@ const Nav = () => {
   }
 
   return (
-    <header className="sticky top-0 z-[1] mx-auto flex-wrap w-full bg-black text-white p-[2em]  ">
-      <nav className="flex text-lg">
-        <span className="flex-auto">LOGO</span>
-        <ul className="hidden sm:flex gap-10 flex-auto">
+    <header className="sticky top-0 bg-gray-800 shadow-md min-h-[15dvh] py-4 px-5  ">
+      <nav className="flex">
+        <span className="flex-auto">
+          <a href="#">
+            <img src={eagle} alt="eagle image" />
+          </a>
+        </span>
+        <ul className="hidden sm:flex gap-10 flex-auto items-center ">
           <NavItems />
         </ul>
-        <div className="flex sm:hidden">
+        <div className="flex sm:hidden text-xl">
           <button onClick={toggleMobileNav}>
-            {isVisible ? "X" : "Hamburger"}
+            {isVisible ? <RxCross1 /> : <GiHamburgerMenu />}
           </button>
         </div>
       </nav>
       {/* phone */}
       {isVisible && (
-        <ul className="mobileNav gap-1 flex flex-col items-center justify-center pt-2">
+        <ul className="mobileNav  sm:hidden  gap-1 mb-4 flex flex-col items-center justify-center pt-2">
           <NavItems />
         </ul>
       )}
