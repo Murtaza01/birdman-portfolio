@@ -1,10 +1,12 @@
-import Nav from "./components/Nav";
+import Nav from "./layout/Nav";
 
 const App = () => {
   return (
     <>
-      <Nav />
-      <h1 className="text-center">hello world</h1>
+      <div className="">
+        <Nav />
+        <h1 className="text-center">hello world</h1>
+      </div>
     </>
   );
 };

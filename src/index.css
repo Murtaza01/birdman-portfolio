@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.mobileNav {
+  transition: height 0.7s, opacity 0.7s;
+  height: 6rem;
+  opacity: 1;
+}
+
+@starting-style {
+  .mobileNav {
+    opacity: 0;
+    height: 0;
+  }
+}
