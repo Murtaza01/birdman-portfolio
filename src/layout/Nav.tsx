@@ -12,7 +12,7 @@ const Nav = () => {
   }
 
   return (
-    <header className="sticky top-0 backdrop-blur-sm  shadow-md min-h-[10dvh] py-4 px-5">
+    <header className="sticky z-10 top-0 backdrop-blur-sm  shadow-md min-h-[10dvh] py-4 px-5">
       <nav className="flex">
         <span className="flex-auto ">
           <a href="#" className="w-max  block">

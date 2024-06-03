@@ -5,6 +5,10 @@
 /* accent color */
 /* #BF8D77 */
 
+.btn {
+  @apply h-10 w-36 rounded-md transition-colors font-semibold;
+}
+
 .mobileNav {
   transition: height 0.5s ease, opacity 0.5s ease;
   height: 6rem;

@@ -1,11 +1,26 @@
-const navItems = ["Home", "Skills", "Projects", "About"];
+const navItems = ["home", "skills", "projects", "about"];
 
 const NavItems = () => {
+  function scrollToSection(event: React.SyntheticEvent) {
+    event.preventDefault();
+    const target = event.target as HTMLAnchorElement;
+    const id = target?.hash.replace("#", "");
+    const element = document.getElementById(id);
+    element?.scrollIntoView({
+      behavior: "smooth",
+    });
+  }
   return (
     <>
       {navItems.map((item) => (
         <li key={item}>
-          <a href={`#${item}`}>{item}</a>
+          <a
+            onClick={scrollToSection}
+            className=" capitalize"
+            href={`#${item}`}
+          >
+            {item}
+          </a>
         </li>
       ))}
     </>

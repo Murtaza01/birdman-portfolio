@@ -2,19 +2,26 @@ import eagle from "../assets/eagle.svg";
 
 const Home = () => {
   return (
-    <main className="flex h-[85dvh] justify-around pt-5 px-5 overflow-x-hidden">
-      <div className="basis-60  text-center pt-10">
-        <h1>Hello world</h1>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores
-          placeat deleniti iure, veniam quasi nemo libero, molestiae odio sequi
-          et quam incidunt eius accusantium voluptate, reiciendis facilis a id
-          quis?
-        </p>
+    <main className="my-12 mx-2 py-5 gap-5 flex items-center justify-evenly bg-gradient-to-tr from-gray-900  to-sky-950 rounded-md shadow-md">
+      <div>
+        <figure className="center ">
+          <img src={eagle} alt="" className="w-40 translate-x-2" />
+        </figure>
+        <div className="text-center">
+          <h1 className="text-2xl capitalize">
+            This is <span className="text-gold ">Birdman</span>
+          </h1>
+          <p className="capitalize">a full stack developer</p>
+        </div>
       </div>
-      <figure className="w-44  pt-16">
-        <img src={eagle} alt="" className="border-l-2 border-black" />
-      </figure>
+      <div className="flex flex-col gap-4 ">
+        <button className="btn border-2 border-gold text-gold hover:text-black hover:bg-gold">
+          Download CV
+        </button>
+        <button className="btn bg-gold text-black hover:brightness-125">
+          Contact Me
+        </button>
+      </div>
     </main>
   );
 };
