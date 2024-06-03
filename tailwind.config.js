@@ -6,6 +6,9 @@ export default {
       backgroundImage: {
         birds: "url('/foggy-birds.png')",
       },
+      colors: {
+        gold: "#d4af37",
+      },
     },
   },
   plugins: [],

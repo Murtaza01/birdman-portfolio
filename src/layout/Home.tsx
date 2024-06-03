@@ -2,7 +2,7 @@ import eagle from "../assets/eagle.svg";
 
 const Home = () => {
   return (
-    <main className="flex h-[85dvh] justify-around pt-5 px-5">
+    <main className="flex h-[85dvh] justify-around pt-5 px-5 overflow-x-hidden">
       <div className="basis-60  text-center pt-10">
         <h1>Hello world</h1>
         <p>
@@ -12,8 +12,8 @@ const Home = () => {
           quis?
         </p>
       </div>
-      <figure className="w-44  pt-12">
-        <img src={eagle} alt="" className="border-l border-black " />
+      <figure className="w-44  pt-16">
+        <img src={eagle} alt="" className="border-l-2 border-black" />
       </figure>
     </main>
   );

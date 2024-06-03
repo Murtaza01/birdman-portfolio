@@ -12,10 +12,10 @@ const Nav = () => {
   }
 
   return (
-    <header className="sticky top-0 bg-gray-800 shadow-md min-h-[15dvh] py-4 px-5  ">
+    <header className="sticky top-0 backdrop-blur-sm  shadow-md min-h-[10dvh] py-4 px-5">
       <nav className="flex">
-        <span className="flex-auto">
-          <a href="#">
+        <span className="flex-auto ">
+          <a href="#" className="w-max  block">
             <img src={eagle} alt="eagle image" />
           </a>
         </span>
