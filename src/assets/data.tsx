@@ -11,6 +11,9 @@ import { DiCss3 } from "react-icons/di";
 import collegeSite from "../assets/images/collegeSite.png";
 import bookSite from "../assets/images/bookSite.png";
 import surveySite from "../assets/images/surveySite.png";
+import frenchSite from "../assets/images/frenchSite.png";
+import firstStageSite from "../assets/images/firstStageSite.png";
+import dirsatgateSite from "../assets/images/dirsatgateSite.png";
 
 export const skills = [
   {
@@ -57,18 +60,36 @@ export const projects = [
     title: "college Site",
     description: "all the site i have did a  wdwdw w dwd wdwdwa",
     img: collegeSite,
-    link: "",
+    link: "https://english-section.netlify.app/",
   },
   {
     title: "book Site",
     description: "all the site i have did a  wdwdw w dwd wdwdwa",
     img: bookSite,
-    link: "",
+    link: "https://iraqibookshopapp.netlify.app/",
   },
   {
     title: "survey Site",
     description: "all the site i have did a  wdwdw w dwd wdwdwa",
     img: surveySite,
-    link: "",
+    link: "https://sos-10-survey.netlify.app/",
+  },
+  {
+    title: "French exam",
+    description: "all the site i have did a  wdwdw w dwd wdwdwa",
+    img: frenchSite,
+    link: "https://frenchfirstexam.netlify.app/",
+  },
+  {
+    title: "First stage ",
+    description: "all the site i have did a  wdwdw w dwd wdwdwa",
+    img: firstStageSite,
+    link: "https://murtaza01.github.io/firstStageApp/",
+  },
+  {
+    title: "dirsatgate 2 ",
+    description: "all the site i have did a  wdwdw w dwd wdwdwa",
+    img: dirsatgateSite,
+    link: "https://murtaza01.github.io/dirsatgateApp/",
   },
 ];
