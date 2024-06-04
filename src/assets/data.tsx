@@ -7,6 +7,10 @@ import { BiLogoTailwindCss } from "react-icons/bi";
 import { FaHtml5 } from "react-icons/fa6";
 import { BiLogoTypescript } from "react-icons/bi";
 import { DiCss3 } from "react-icons/di";
+// img for projects
+import collegeSite from "../assets/images/collegeSite.png";
+import bookSite from "../assets/images/bookSite.png";
+import surveySite from "../assets/images/surveySite.png";
 
 export const skills = [
   {
@@ -45,5 +49,26 @@ export const skills = [
   {
     title: "typescript",
     icon: <BiLogoTypescript className="text-blue-600" />,
+  },
+];
+
+export const projects = [
+  {
+    title: "college Site",
+    description: "all the site i have did a  wdwdw w dwd wdwdwa",
+    img: collegeSite,
+    link: "",
+  },
+  {
+    title: "book Site",
+    description: "all the site i have did a  wdwdw w dwd wdwdwa",
+    img: bookSite,
+    link: "",
+  },
+  {
+    title: "survey Site",
+    description: "all the site i have did a  wdwdw w dwd wdwdwa",
+    img: surveySite,
+    link: "",
   },
 ];

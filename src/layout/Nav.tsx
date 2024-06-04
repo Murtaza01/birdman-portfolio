@@ -1,6 +1,6 @@
 import { useState } from "react";
 import NavItems from "../components/NavItems";
-import eagle from "../assets/eagle2.png";
+import eagleLogo from "../assets/images/eagleLogo.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross1 } from "react-icons/rx";
 
@@ -16,7 +16,7 @@ const Nav = () => {
       <nav className="flex">
         <span className="flex-auto ">
           <a href="#" className="w-max  block">
-            <img src={eagle} alt="eagle image" />
+            <img src={eagleLogo} alt="eagle image" />
           </a>
         </span>
         <ul className="hidden sm:flex gap-10 flex-auto items-center ">
