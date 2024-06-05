@@ -1,6 +1,5 @@
 import Heading from "../components/Heading";
 import avatar from "../assets/images/murtaza.jpg";
-// import { SiCoinmarketcap } from "react-icons/si";
 const About = () => {
   return (
     <section id="about" className="pb-10">

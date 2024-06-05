@@ -1,8 +1,8 @@
 import { useState } from "react";
 import NavItems from "../components/NavItems";
-import eagleLogo from "../assets/images/eagleLogo.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross1 } from "react-icons/rx";
+import { SiCoinmarketcap } from "react-icons/si";
 
 const Nav = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -16,7 +16,8 @@ const Nav = () => {
       <nav className="flex">
         <span className="flex-auto ">
           <a href="#" className="w-max  block">
-            <img src={eagleLogo} alt="eagle image" />
+            <SiCoinmarketcap className="text-gold text-4xl" />
+            {/* <img src={eagleLogo} className="w-12" alt="eagle image" /> */}
           </a>
         </span>
         <ul className="hidden sm:flex gap-10 flex-auto items-center ">

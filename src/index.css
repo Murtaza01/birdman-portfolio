@@ -8,7 +8,7 @@
 .btn {
   @apply h-10 w-36 rounded-md transition-colors font-semibold;
 }
-
+/* failed attempt to add a good text effect */
 /* .head::after {
   content: "";
   transform: skewY(-3deg);

@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <main
       id="home"
-      className="my-16 mx-2 py-5 gap-5 flex items-center justify-evenly bg-gradient-to-tr from-gray-900  to-sky-950 rounded-md shadow-md"
+      className="my-16 mx-2 py-5 gap-5 flex items-center justify-evenly bg-gradient-to-l from-gray-900 text from-40% to-transparent backdrop-blur-sm rounded-md shadow-md"
     >
       <div>
         <figure className="center">
