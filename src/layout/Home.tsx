@@ -2,9 +2,12 @@ import eagle from "../assets/images/eagle.svg";
 
 const Home = () => {
   return (
-    <main className="my-16 mx-2 py-5 gap-5 flex items-center justify-evenly bg-gradient-to-tr from-gray-900  to-sky-950 rounded-md shadow-md">
+    <main
+      id="home"
+      className="my-16 mx-2 py-5 gap-5 flex items-center justify-evenly bg-gradient-to-tr from-gray-900  to-sky-950 rounded-md shadow-md"
+    >
       <div>
-        <figure className="center ">
+        <figure className="center">
           <img src={eagle} alt="" className="w-40 translate-x-2" />
         </figure>
         <div className="text-center">

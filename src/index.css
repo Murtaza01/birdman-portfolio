@@ -3,11 +3,21 @@
 @tailwind utilities;
 
 /* accent color */
-/* #BF8D77 */
+/* #d4af37 */
 
 .btn {
   @apply h-10 w-36 rounded-md transition-colors font-semibold;
 }
+
+/* .head::after {
+  content: "";
+  transform: skewY(-3deg);
+  border-radius: 5px;
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background-color: #d4af37;
+} */
 
 .mobileNav {
   transition: height 0.5s ease, opacity 0.5s ease;

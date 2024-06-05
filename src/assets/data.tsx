@@ -58,38 +58,42 @@ export const skills = [
 export const projects = [
   {
     title: "college Site",
-    description: "all the site i have did a  wdwdw w dwd wdwdwa",
+    description:
+      "a website i made with react-router-dom and redux, it was requested by my department head in my college after seeing the first Stage website",
     img: collegeSite,
     link: "https://english-section.netlify.app/",
   },
   {
     title: "book Site",
-    description: "all the site i have did a  wdwdw w dwd wdwdwa",
+    description:
+      "a website for books, it had potentials but i was too beginner to apply the ideas i had ",
     img: bookSite,
     link: "https://iraqibookshopapp.netlify.app/",
   },
   {
     title: "survey Site",
-    description: "all the site i have did a  wdwdw w dwd wdwdwa",
+    description:
+      "a full stack website with database and backend, which i made after being inspired by the Schwartz Outcome Scale",
     img: surveySite,
     link: "https://sos-10-survey.netlify.app/",
   },
   {
     title: "French exam",
-    description: "all the site i have did a  wdwdw w dwd wdwdwa",
+    description: "a site i made to help my classmate with our french exam",
     img: frenchSite,
     link: "https://frenchfirstexam.netlify.app/",
   },
   {
-    title: "First stage ",
-    description: "all the site i have did a  wdwdw w dwd wdwdwa",
-    img: firstStageSite,
-    link: "https://murtaza01.github.io/firstStageApp/",
-  },
-  {
-    title: "dirsatgate 2 ",
-    description: "all the site i have did a  wdwdw w dwd wdwdwa",
+    title: "dirsatgate wallmart version",
+    description: "a failed attempt to remake dirsatgate",
     img: dirsatgateSite,
     link: "https://murtaza01.github.io/dirsatgateApp/",
+  },
+  {
+    title: "First stage ",
+    description:
+      "a site that has all the books and grades of the first stage of my department,which i made to my classmates in my college ",
+    img: firstStageSite,
+    link: "https://murtaza01.github.io/firstStageApp/",
   },
 ];

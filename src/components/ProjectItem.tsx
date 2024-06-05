@@ -12,11 +12,13 @@ const ProjectItem = ({ title, description, img, link, index }: props) => {
     <div
       className={`flex items-center shadow-md justify-around px-4 rounded-md  ${
         even ? "flex-row-reverse bg-gradient-to-br" : "bg-gradient-to-bl"
-      } py-8 gap-4 from-gray-700 from-40% to-transparent   backdrop-blur-sm`}
+      } py-8 gap-4 from-gray-700 from-40% to-transparent my-8  backdrop-blur-sm`}
     >
-      <div className="text-center">
-        <h3>{title}</h3>
-        <p>{description}</p>
+      <div className="text-center space-y-2 ">
+        <h3 className="text-lg text-gray-100 font-semibold capitalize">
+          {title}
+        </h3>
+        <p className="text-gray-300">{description}</p>
       </div>
       <a
         href={link}

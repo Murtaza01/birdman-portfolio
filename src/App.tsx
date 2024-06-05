@@ -2,6 +2,7 @@ import Nav from "./layout/Nav";
 import Home from "./layout/Home";
 import Skills from "./layout/Skills";
 import Projects from "./layout/Projects";
+import About from "./layout/About";
 const App = () => {
   return (
     <>
@@ -10,6 +11,7 @@ const App = () => {
         <Home />
         <Skills />
         <Projects />
+        <About />
       </div>
     </>
   );

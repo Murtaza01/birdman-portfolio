@@ -5,12 +5,10 @@ interface props {
 
 const Heading = ({ head, children }: props) => {
   return (
-    <>
-      <h2 className="text-center text-2xl">{head}</h2>
-      <p className="mx-auto text-center mb-8 mt-2 max-w-96 capitalize">
-        {children}
-      </p>
-    </>
+    <div className="text-center space-y-3  mb-8">
+      <h2 className=" text-2xl text-gray-100   font-semibold">{head}</h2>
+      <p className="mx-auto   max-w-96 capitalize text-gray-300">{children}</p>
+    </div>
   );
 };
 
