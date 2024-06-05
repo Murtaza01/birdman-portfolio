@@ -1,10 +1,16 @@
 import eagle from "../assets/images/eagle.svg";
-
+import resume from "../assets/resume.pdf";
 const Home = () => {
+  function scrollToFooter() {
+    const footer = document.getElementById("footer");
+    footer?.scrollIntoView({
+      behavior: "smooth",
+    });
+  }
   return (
     <main
       id="home"
-      className="my-16 mx-2 py-5 gap-5 flex items-center justify-evenly bg-gradient-to-l from-gray-900 text from-40% to-transparent backdrop-blur-sm rounded-md shadow-md"
+      className="my-16 mx-3 py-5 gap-3 flex items-center justify-evenly bg-gradient-to-l from-gray-900 text from-40% to-transparent backdrop-blur-sm rounded-md shadow-md sm:mx-[10%] md:max-w-[750px] md:mx-auto "
     >
       <div>
         <figure className="center">
@@ -18,11 +24,16 @@ const Home = () => {
         </div>
       </div>
       <div className="flex flex-col gap-4 ">
-        <button className="btn border-2 border-gold text-gold hover:text-black hover:bg-gold">
-          Download CV
+        <button className="btn  border-2 border-gold text-gold hover:text-black hover:bg-gold">
+          <a href={resume} download>
+            Download CV
+          </a>
         </button>
-        <button className="btn bg-gold text-black hover:brightness-125">
-          Contact Me
+        <button
+          onClick={scrollToFooter}
+          className="btn   bg-gold text-black hover:brightness-125"
+        >
+          <a href="#">Contact Me</a>
         </button>
       </div>
     </main>

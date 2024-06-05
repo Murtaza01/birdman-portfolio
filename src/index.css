@@ -5,8 +5,14 @@
 /* accent color */
 /* #d4af37 */
 
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .btn {
-  @apply h-10 w-36 rounded-md transition-colors font-semibold;
+  @apply h-10 w-36  rounded-md transition-colors font-semibold;
 }
 /* failed attempt to add a good text effect */
 /* .head::after {
@@ -19,6 +25,7 @@
   background-color: #d4af37;
 } */
 
+/* for animation */
 .mobileNav {
   transition: height 0.5s ease, opacity 0.5s ease;
   height: 6rem;
@@ -30,10 +37,4 @@
     opacity: 0;
     height: 0;
   }
-}
-
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }

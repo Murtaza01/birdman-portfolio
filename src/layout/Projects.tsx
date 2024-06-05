@@ -3,7 +3,7 @@ import { projects } from "../assets/data";
 import ProjectItem from "../components/ProjectItem";
 const Projects = () => {
   return (
-    <section className="px-2   py-10 " id="projects">
+    <section className="   py-10 " id="projects">
       <Heading head="My Projects">
         These are all the projects that i've made over the last few months
       </Heading>
