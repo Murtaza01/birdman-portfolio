@@ -13,14 +13,14 @@ const Nav = () => {
 
   return (
     <header className="sticky z-10 top-0 backdrop-blur-sm  shadow-md min-h-[10dvh] py-4 px-5">
-      <nav className="flex">
+      <nav className="flex ">
         <span className="flex-auto ">
           <a href="#" className="w-max  block">
             <SiCoinmarketcap className="text-gold text-4xl" />
             {/* <img src={eagleLogo} className="w-12" alt="eagle image" /> */}
           </a>
         </span>
-        <ul className="hidden sm:flex gap-10 flex-auto items-center ">
+        <ul className="hidden  sm:flex gap-10 flex-auto items-center ">
           <NavItems />
         </ul>
         <div className="flex sm:hidden text-xl">

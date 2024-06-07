@@ -13,7 +13,7 @@ const NavItems = () => {
   return (
     <>
       {navItems.map((item) => (
-        <li key={item}>
+        <li key={item} className="font-secondary sm:text-lg">
           <a
             onClick={scrollToSection}
             className=" capitalize"

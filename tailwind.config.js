@@ -3,6 +3,11 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        "primary-light": "Nippo",
+        primary: "Nippo-Medium",
+        secondary: "Supreme",
+      },
       backgroundImage: {
         birds: "url('/foggy-birds.png')",
       },

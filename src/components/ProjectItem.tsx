@@ -15,10 +15,12 @@ const ProjectItem = ({ title, description, img, link, index }: props) => {
       } py-8 gap-4 from-gray-700 from-40% to-transparent my-8  backdrop-blur-sm sm:mx-[10%] md:max-w-[750px] md:mx-auto`}
     >
       <div className="text-center space-y-2 ">
-        <h3 className="text-lg text-gray-100 font-semibold capitalize">
+        <h3 className="text-lg text-gray-100  capitalize font-primary">
           {title}
         </h3>
-        <p className="text-gray-300   lg:w-[30rem] lg:mx-auto">{description}</p>
+        <p className="text-gray-300 font-secondary   lg:w-[30rem] lg:mx-auto">
+          {description}
+        </p>
       </div>
       <a
         href={link}

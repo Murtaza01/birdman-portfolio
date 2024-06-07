@@ -39,9 +39,9 @@ export default function Footer() {
           </li>
         </ul>
       </div>
-      <p className=" capitalize md:text-lg">
+      <p className=" capitalize font-secondary md:text-lg ">
         all copyRights @ goes to{" "}
-        <span className=" font-bold text-gold">Birdman.</span>{" "}
+        <span className=" font-primary text-gold">Birdman.</span>{" "}
       </p>
     </footer>
   );
